@@ -1,1 +1,41 @@
-<!-- quiz.html for EduVerse8 project -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Random Quiz — EduVerse 8</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+<h1>Random Quiz</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="flashcards.html">Flashcards</a>
+</nav>
+</header>
+
+
+<main class="container">
+<section class="quiz-settings card">
+<label>Number of Questions:
+<input id="num-q" type="number" min="1" max="50" value="10" />
+</label>
+<label>Include Subjects:
+<select id="quiz-subjects" multiple size="6"></select>
+</label>
+<button id="start-quiz">Start Quiz</button>
+</section>
+
+
+<section id="quiz-area"></section>
+</main>
+
+
+<footer><small>Random Quiz pulls from the question bank and your flashcards</small></footer>
+
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html><!-- quiz.html for EduVerse8 project -->
