@@ -1,1 +1,1 @@
-# eduverse8
+<!-- README.md for EduVerse8 project -->
