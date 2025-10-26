@@ -1,1 +1,41 @@
-<!-- login.html for EduVerse8 project -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Login — EduVerse 8</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+<h1>Account</h1>
+<nav>
+<a href="index.html">Home</a>
+</nav>
+</header>
+
+
+<main class="container card">
+<form id="auth-form">
+<h2 id="auth-title">Login</h2>
+<label>Username <input id="username" required /></label>
+<label>Password <input id="password" type="password" required /></label>
+<div class="auth-actions">
+<button id="auth-submit" type="submit">Login</button>
+<button id="switch-to-signup" type="button">Switch to Sign up</button>
+</div>
+<div style="margin-top:10px;">
+<button id="btn-guest" type="button">Continue as Guest</button>
+</div>
+<p class="small">Demo: passwords stored in browser localStorage. Use a backend for production.</p>
+</form>
+</main>
+
+
+<footer><small>EduVerse 8 — Account (demo)</small></footer>
+
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html><!-- login.html for EduVerse8 project -->
